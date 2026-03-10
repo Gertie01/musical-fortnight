@@ -1,5 +1,20 @@
 'use client'
 
+// Define your interface at the top of the file, outside of any JSX
+interface ImageStudioProps {
+  className?: string;
+  // ... other props
+}
+
+// Then define your component
+export default function ImageStudio({ className }: ImageStudioProps) {
+  return (
+    <>
+      {/* Your JSX content goes here */}
+    </>
+  )
+}
+
 import Upload from '@/components/Upload';
 import Settings from './Settings';
 import { Sparkles } from 'lucide-react';
