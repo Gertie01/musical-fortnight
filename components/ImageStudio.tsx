@@ -107,8 +107,8 @@ export default function ImageStudio() {
                 <img src={image} alt="Source" className="max-h-48 rounded-lg shadow-xl" />
               ) : (
                 <>
-              interface ImageStudioProps {
-  className?: string;
+                  interface ImageStudioProps {
+   className?: string;
   // ... other props
 }
 
