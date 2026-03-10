@@ -112,15 +112,9 @@ export default function ImageStudio() {
   // ... other props
 }
 
-export default function ImageStudio({ className }: ImageStudioProps) {
-  return (
-    <>
-      {/* Your JSX content here */}
-    </>
-  );
-}
-
-}
+export const ImageStudio: React.FC<ImageStudioProps> = ({ className }) => {
+  return <div className={className}>/* content */</div>;
+};
 
 export function ImageStudio({ className, ...props }: ImageStudioProps) {
   return (
