@@ -20,5 +20,4 @@
     "@types/react": "latest",
     "typescript": "latest"
   },
-  node -c package.json
 }
