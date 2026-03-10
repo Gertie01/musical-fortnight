@@ -1,4 +1,4 @@
-import ImageStudio from '@/components/ImageStudio';
+import ImageStudio from '@/components/ImageStudio'
 
 export default function Home() {
   return (
