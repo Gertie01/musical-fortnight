@@ -92,7 +92,16 @@ export default function ImageStudio() {
                 <img src={image} alt="Source" className="max-h-48 rounded-lg shadow-xl" />
               ) : (
                 <>
-                  <SomeComponent className="...">
+              interface ImageStudioProps {
+  className?: string;
+  // ... other props
+}
+
+export function ImageStudio({ className, ...props }: ImageStudioProps) {
+  return (
+    <div className={className}>
+      {/* Your content */}
+    </div>
                   <p className="text-sm text-zinc-500">Drag & Drop an image to edit, or click to browse</p>
                 </>
               )}
