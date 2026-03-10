@@ -92,7 +92,7 @@ export default function ImageStudio() {
                 <img src={image} alt="Source" className="max-h-48 rounded-lg shadow-xl" />
               ) : (
                 <>
-                  <Upload className="w-10 h-10 text-zinc-600 mb-2" />
+                  <SomeComponent className="...">
                   <p className="text-sm text-zinc-500">Drag & Drop an image to edit, or click to browse</p>
                 </>
               )}
