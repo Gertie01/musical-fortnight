@@ -15,7 +15,7 @@
     "@google/generative-ai": "latest"
   },
   "devDependencies": {
-    "eslint": "latest"
+    "eslint": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "typescript": "latest"
