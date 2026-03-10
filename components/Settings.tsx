@@ -2,7 +2,7 @@
 
 import { FC } from 'react';
 
-export interface SettingsProps {
+interface SettingsProps {
   className?: string;
   [key: string]: any;
 }
