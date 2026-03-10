@@ -66,7 +66,6 @@ export default function ImageStudio() {
         </div>
         <div className="flex gap-4">
            <div className="relative">
-            <Settings className="absolute left-3 top-2.5 w-4 h-4 text-zinc-500" />
             <input 
               type="password"
               placeholder="Enter Gemini API Key..."
