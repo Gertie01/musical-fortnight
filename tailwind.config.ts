@@ -1,5 +1,8 @@
 import type { Config } from 'tailwindcss';
-
+"compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
