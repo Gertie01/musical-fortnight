@@ -3,7 +3,16 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 
 export async function POST(req: NextRequest) {
   try {
-    const client = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
+    const apiKey = process.env.GOOGLE_API_KEY;
+    
+    if (!apiKey) {
+      return NextResponse.json(
+        { error: 'GOOGLE_API_KEY is not configured' },
+        { status: 500 }
+      );
+    }
+    
+    const client = new GoogleGenerativeAI(apiKey);
     // Your API logic here
     return NextResponse.json({ success: true });
   } catch (error) {
