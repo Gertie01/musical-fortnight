@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
+const MODEL_ID = "gemini-2.0-flash-exp-image-generation";
+
 export async function POST(req: NextRequest) {
   try {
     const apiKey = process.env.GOOGLE_API_KEY;
