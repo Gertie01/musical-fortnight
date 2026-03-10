@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
+// Define the model ID for Gemini 2.0 Flash experimental
 const MODEL_ID = "gemini-2.0-flash-exp-image-generation";
 
 export async function POST(req: NextRequest) {
