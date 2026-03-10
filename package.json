@@ -19,7 +19,7 @@
     "eslint": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
     "tailwindcss postcss autoprefixer": "latest"
   }
 }
