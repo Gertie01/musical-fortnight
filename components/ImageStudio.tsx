@@ -1,3 +1,4 @@
+import Settings from './Settings';
 'use client'
 
 import { Sparkles } from 'lucide-react';
