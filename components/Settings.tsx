@@ -2,6 +2,7 @@
 
 import { FC } from 'react';
 
+// Make both exported
 export interface SettingsProps {
   className?: string;
   // ... other props
