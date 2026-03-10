@@ -2,9 +2,9 @@
 
 import { FC } from 'react';
 
-interface SettingsProps {
+export interface SettingsProps {
   className?: string;
-  [key: string]: any;
+  // ... other props
 }
 
 export function Settings({ className, ...props }: SettingsProps) {
