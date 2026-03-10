@@ -1,3 +1,9 @@
+'use client'
+
 export default function Upload() {
-  return <div>Upload component</div>;
+  return (
+    <div>
+      {/* Your upload component code */}
+    </div>
+  )
 }
