@@ -11,6 +11,7 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
+    npm install react-dropzone
     "@google/generative-ai": "latest"
   },
   "devDependencies": {
