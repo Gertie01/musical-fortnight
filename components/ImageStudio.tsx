@@ -107,20 +107,6 @@ export default function ImageStudio() {
                 <img src={image} alt="Source" className="max-h-48 rounded-lg shadow-xl" />
               ) : (
                 <>
-  interface ImageStudioProps {
-  className?: string;
-  // ... other props
-}
-
-export const ImageStudio: React.FC<ImageStudioProps> = ({ className }) => {
-  return <div className={className}>/* content */</div>;
-};
-
-export function ImageStudio({ className, ...props }: ImageStudioProps) {
-  return (
-    <div className={className}>
-      {/* Your content */}
-    </div>
                   <p className="text-sm text-zinc-500">Drag & Drop an image to edit, or click to browse</p>
                 </>
               )}
