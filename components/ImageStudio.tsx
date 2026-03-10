@@ -1,6 +1,6 @@
-import Settings from './Settings';
 'use client'
 
+import Settings from './Settings';
 import { Sparkles } from 'lucide-react';
 import React, { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
