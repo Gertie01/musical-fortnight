@@ -13,13 +13,15 @@
     "react-dom": "latest",
     "react-dropzone": "latest",
     "@google/generative-ai": "latest",
-    "lucide-react": "latest"
+    "lucide-react": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
   },
   "devDependencies": {
     "eslint": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
-    "typescript": "latest",
-    "tailwindcss postcss autoprefixer": "latest"
+    "typescript": "latest"
   }
 }
