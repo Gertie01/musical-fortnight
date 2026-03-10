@@ -19,5 +19,5 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "typescript": "latest"
-  },
+  }
 }
