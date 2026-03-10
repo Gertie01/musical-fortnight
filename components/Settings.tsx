@@ -2,26 +2,18 @@
 
 import { FC } from 'react';
 
-// Make both exported
 export interface SettingsProps {
   className?: string;
-  // ... other props
+  apiKey?: string;
+  onApiKeyChange?: (value: string) => void;
 }
 
-export function Settings({ className, ...props }: SettingsProps) {
-  return {/* ... */};
-}
-
-const Settings: FC<SettingsProps> = ({ apiKey, onApiKeyChange }) => {
+const Settings: FC<SettingsProps> = ({ className, apiKey, onApiKeyChange }) => {
   return (
-    <div className="settings">
-      <input
-        type="password"
-        placeholder="Enter Gemini API Key..."
-        value={apiKey}
-        onChange={(e) => onApiKeyChange(e.target.value)}
-      />
-    </div>
+    <input
+      value={apiKey}
+      onChange={(e) => onApiKeyChange?.(e.target.value)}
+    />
   );
 };
 
