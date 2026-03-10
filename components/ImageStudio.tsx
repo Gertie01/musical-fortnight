@@ -1,5 +1,6 @@
 'use client'
 
+import Upload from '@/components/Upload';
 import Settings from './Settings';
 import { Sparkles } from 'lucide-react';
 import React, { useState, useCallback } from 'react';
