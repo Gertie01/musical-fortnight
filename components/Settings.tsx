@@ -3,8 +3,12 @@
 import { FC } from 'react';
 
 interface SettingsProps {
-  apiKey: string;
-  onApiKeyChange: (key: string) => void;
+  className?: string;
+  // ... other props
+}
+
+export function Settings({ className, ...props }: SettingsProps) {
+  return <div className={className}>{/* ... */}</div>;
 }
 
 const Settings: FC<SettingsProps> = ({ apiKey, onApiKeyChange }) => {
