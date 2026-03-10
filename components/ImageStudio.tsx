@@ -1,8 +1,8 @@
-"use client";
+'use client'
 
 import React, { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
-import { Upload, Send, Settings, Loader2, Image as ImageIcon, Sparkles } from 'lucide-react';
+// ... rest of your component
 
 export default function ImageStudio() {
   const [apiKey, setApiKey] = useState('');
